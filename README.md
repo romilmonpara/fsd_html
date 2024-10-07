@@ -1,3 +1,3 @@
 # fsd_html
-HTML || Full Stack Development || LJIET
-select folder -> open with code
+HTML || Full Stack Development || LJIET ||
+all html files/select folder -> open with code
