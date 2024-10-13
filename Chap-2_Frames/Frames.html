@@ -1,0 +1,20 @@
+<!-- HTML Frame : used to divide browser window into multiple section where each section can load a separate
+ html doc. -->
+<!-- 1. <frameset> = To decide partitious into more than one frame.
+    Attributes:
+        1. rows = specifies now many rows are combined in the frameset.
+        ex. rows= "20%, 30%, *"
+            rows= "150, 300, 200"= in px/rows
+            rows= "*, *, *"= equal partition -> 33.33
+        2. cols -> ex. cols= "30%, *"
+                       cols= "30%, 20%,50%" 
+        3. border -> ex. border= "5"-> Note-> Zero means no border 
+        4. frameborder -> frameborder= "0" -> value -< 1= yes || 0=No -->
+<!-- Note -> main.html page should not have <body> tag 
+    no-resize -> frames are not draggable.
+    noresize="noresize" simply write noresize -->
+<!-- <frame>
+    Attributes:
+        1. src -> source of HTML File
+        2. Scrolling -< yes | no
+            ex. Scrolling= no -> it should not have scroll bar -->
