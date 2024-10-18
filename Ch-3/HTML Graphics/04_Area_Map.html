@@ -1,0 +1,21 @@
+<!-- Area & Map -->
+<!-- The  <area> tag defines an area inside on image map(an image map is an image of clickable area)
+ Note -> 1. <area> elements are always inside a <map> tag
+    2. usemap attribute in <img> is associated with <map> 
+        (it creates relationship b/w the img & map) -->
+<!-- Attributes
+    1. shape = 
+    2. coords = 
+    3. href =
+    4. alt =
+    5. target = -->
+
+<html>
+    <body>
+        <img src="castle.jpg" usemap="#workmap" width="70%" height="70%"/>
+        <map name="workmap">
+            <area shape="rect" coords="5,10,200,400" href="bmw_headlight.jpg" target="_blank"/>
+            <area shape="rect" coords="210,10,400,400" href="mountain.jpg" target="_blank"/>
+        </map>
+    </body>
+</html>
